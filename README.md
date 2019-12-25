@@ -22,8 +22,10 @@ works for Fury 1.00 but not with the newest 1.02 from Steam or GOG
 3. Go into cloned eduke32 folder
 4. Build eduke32, standard version for switch
 
-   ```make PLATFORM=SWITCH```
-5. Build eduke32, Ion Fury version for switch
+   ```make PLATFORM=SWITCH
+   make PLATFORM=SWITCH clean```
+5. Build eduke32, Ion Fury version for switch, you can clean the folder after build.
 
-   ```make PLATFORM=SWITCH FURY=1```
-   
+   ```make PLATFORM=SWITCH FURY=1
+   make PLATFORM=SWITCH clean```
+6. You will find fury.nro and eduke32.nro in eduke32 folder for further usage 
