@@ -1,7 +1,7 @@
 # eduke32
 works for Fury 1.00 but not with the newest 1.02 from Steam or GOG
 
-# install for windows10
+# build under windows10 for switch
 1. devkitpro with switch support from https://github.com/devkitPro/installer/releases
 2. start devkitPro->Msys2 Shell and add env variable to /etc/bash.bashrc
 
